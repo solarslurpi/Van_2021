@@ -3,6 +3,7 @@ We put in a view window:
 
 ![view window](./images/windowshade.jpeg)
 ## Dimensions
+Well..getting accurate dimensions is HARD...here's what I recommend.  Let us first choose the method of covering then get to dimensions.  Because what are we dimensioning?  The actual length and width of fabric to the frame? No..we are dimensioning from whatever supports we need to hang the fabric...so that first...on with the discussion...
 
 ## Our Requirements
 * The window cover __enhances the overall theme and happiness__ when we walk into the van.  We chose colors that are common to the Greek Isles.  The window cover must capture the spirit of relaxing and exploring the Greek isle of Mykonos.
