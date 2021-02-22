@@ -46,7 +46,7 @@ We will use magnets similar to the one in this image
 
 to keep the curtain attached to the bottom window frame.  The magnets will be spaced along the bottom of the curtain as well as the bottom window frame.
 
-![window with magnets](./images/windowshade_with_magnets.jpeg)
+![window with magnets and face frame](./images/windowshade_with_magnets.jpeg)
 
 
 
