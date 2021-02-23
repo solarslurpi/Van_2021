@@ -1,7 +1,9 @@
 # The Inverter
 The job of the inverter is to take in DC Current and convert it to AC current.  This way, we can run appliances we typically run in our house - like a microwave, popcorn popper, etc.
 ## Inverter Model
-We are using a Victron Multiplus 12/3000/120-50 120v Inverter.
+We are using a [Victron Multiplus 12/3000/120-50 120v Inverter](https://www.victronenergy.com/upload/documents/Manual%20-%20MultiPlus%203k%20120V%20Ve.Bus%20enabled%20-%20rev%2000%20-%20EN.pdf).
+
+* [Victron Explaining how the AC Sine Wave is generated](https://youtu.be/UPfUn5ki7OM?t=143).  The Sine Wave that is created with the 12V in is about 10V.  The inverter uses a transformer to bump the wave up to 120V.
 
 ![inverter from the top](./images/inverter.jpeg)
 
