@@ -3,6 +3,18 @@ We are using a Multiplus 12/3000/120-50 120v Inverter powered by Battleborn batt
 
 ISSUE: Approximately 15 secs after turning power on to our Bosch 3000 T water heater, the inverter flashes the low battery light, then the overload light flashes. The inverter stops working.
 
+The BMV-712 iPhone app shows the amps/volts happening ([Video of what the iPhone app shows](https://youtu.be/63AJLNoMd2Y)):
+- During a light load in which a few 12V LEAD lights on the ceiling of our van are on.
+- when the water heater is plugged into an AC outlet.
+
+__OVER 100A CURRENT DRAW?__
+
+When the water heater is plugged into an outlet that is supplied electricity from our house, the current draw is 10.88A.
+![wh amp killawatt](.././images/kilawatts_amps_waterheater.jpeg)
+
+
+
+
 While it is on with power requested by the water heater, the SmartBMV software shows current = -120A, Power = -1454W.
 
 Note: When I plug the water heater into an extension cord from our house, the Kill-A-Watt shows 10.85A 1235W.
@@ -24,6 +36,14 @@ Aaron
 775-622-3448
 Ext 108
 ```
+I provided Aaron with [a short video showing the BMV-712 UI on my iPhone](https://youtu.be/bfaY5cJxLmI) when the power was turned on with minimum load, i.e.: there were a few of the 12V overhead LED lights on.  Then the load increasing in current draw as I plugged our Dremmel into one of the AC plugs.  In my response mail I asked him: _As I understand what you are saying/asking, you want to make sure the battery monitor is showing the right values.  Correct?_
+
+Aaron's follow up response:
+```
+Yes, that is correct. I just wanted to cross reference the percentage with voltage to ensure we are not dealing with any type of mismatch. Based on the video provided, batteries are at 13.76v and the BMV is 100%, so that checks out and can be eliminated. It is very common to see the majority of issues arise revolve  around a BMV-712. This is why I asked this question first, as it is the most common issue from a troubleshooting standpoint.
+```
+
+
 -- battery monitor issue:
 - does the Inverter communicate with the battery monitor?  That doesn't make sense to me.  How does the inverter determine low battery?
 - note in [Victron's video](https://youtu.be/UPfUn5ki7OM?t=235), the inverter is plugged directly into the battery (as it is in our Van).  So I get you are saying the battery monitor;s UI isn't right, but the batteries are working fine for everything else.  So that I understand, what you are asking is to make sure the battery monitor is showing the right values.  This means your assumption is the batteries are lower than needed to sustain the sine waves?
