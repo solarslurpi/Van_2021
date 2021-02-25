@@ -20,11 +20,13 @@ The size of the wire must:
 * Be able to carry the total amount of Amps that the loads will request at one time.
 * The amount of resistance must not drop the voltage below what the loads require. _Note: [Nate (explorist.life) recommends at most a 3% voltage drop](https://youtu.be/ki3WXVR48eM?t=110)_.
 
-In Our van:
+## AMP Requirements
 * The component that draws the most Amps at a time is the inverter.  The biggest current draw occurs when an appliance like a microwave, water heater, or popcorn popper are on.  The cable from the busbar to the inverter is at most 3 feet.
 * We will not be running the microwave, water heater, or popcorn popper at the same time.
 * The DC loads max at about 7A.  
 * The only loads that are on continually are the LED lights, refrigerator (small AC), and components to maintain electricity (like the inverter and the solar battery charger).
+
+## Choice of Wire Size
 
 We chose [2/0 gauge copper cable](https://amzn.to/2Mp7yia).
 
