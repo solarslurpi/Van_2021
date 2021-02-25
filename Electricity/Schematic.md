@@ -16,11 +16,31 @@ It's the AC circuits that "get exciting."  We use [Victrons Multiplus 12/3000/12
 
 # Wire Size
 
-We chose [2/0 gauge copper cable](https://amzn.to/2Mp7yia) based on our maximum expected load of current draw.
-- the length of cable between components is always less than 6 feet.
-- the amount of amps used at any one time should not be more than 30A.
+The size of the wire must:
+* Be able to carry the total amount of Amps that the loads will request at one time.
+* The amount of resistance must not drop the voltage below what the loads require. _Note: [Nate (explorist.life) recommends at most a 3% voltage drop](https://youtu.be/ki3WXVR48eM?t=110)_.
 
-![cable size](./images/cablesize_amps.png)
+In Our van:
+* The component that draws the most Amps at a time is the inverter.  The biggest current draw occurs when an appliance like a microwave, water heater, or popcorn popper are on.  The cable from the busbar to the inverter is at most 3 feet.
+* We will not be running the microwave, water heater, or popcorn popper at the same time.
+* The DC loads max at about 7A.  
+* The only loads that are on continually are the LED lights, refrigerator (small AC), and components to maintain electricity (like the inverter and the solar battery charger).
 
---TODO: VERIFY CABLE BEING USED.
+We chose [2/0 gauge copper cable](https://amzn.to/2Mp7yia).
+
+![cable between batteries](./images/cable_between_Batteries.jpeg)
+
+![cable to inverter](./images/cable_to_inverter.jpeg)
+
+
+We chose this size based on:
+- We project our largest current draw to be 200A.
+- By far the biggest user of current is the inverter.  The cable between the inverter and the busbar is at most 4 feet.  The rest of the current draws are in the 5 - 10A range.  We project at most two of these circuits will be active at one time, adding about 20A.
+- The diameter of the cable is easier to work with than 3/0 or 4/0.
+
+![cable size](./images/CurrentFlow_CableSize_SM.png)  
+
+_Note: [Here is a higher resolution image of the cable diagram](./images/CurrentFlow_CableSize_Original.png)_
+
+--TODO: FUSES...WHY THE SIZES THEY ARE AT? Why is there one in the batteries.
 

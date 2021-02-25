@@ -8,20 +8,35 @@ The BMV-712 iPhone app shows the amps/volts happening ([Video of what the iPhone
 - when the water heater is plugged into an AC outlet.
 
 __OVER 100A CURRENT DRAW?__
+And then some because the amount of voltage is limited by 12V DC provided by the batteries.  Ohms law must be maintained.
 
-When the water heater is plugged into an outlet that is supplied electricity from our house, the current draw is 10.88A.
+A fully charged battery bank 
+
+## Using Our Home Power
+When the water heater is plugged into an extension cord that gets electricity from our house, the current draw is 10.88A.
 ![wh amp killawatt](.././images/kilawatts_amps_waterheater.jpeg)
 
+The Power is 1247W
 
+![wh power killawatt](.././images/killawat_watts_waterheater.jpeg)
 
+```
+Watts = Volts * Amps
+Volts = 1247 / 10.88 = 114.6V
+```
+This voltage value makes sense given our home is 110-120V AC.
 
-While it is on with power requested by the water heater, the SmartBMV software shows current = -120A, Power = -1454W.
+While the water heater is plugged in and turned on, the SmartBMV software shows current = -120A, Power = -1454W.
 
-Note: When I plug the water heater into an extension cord from our house, the Kill-A-Watt shows 10.85A 1235W.
+![wh bmv reading](.././images/wh_bmv_reading.png)
 
-Note: The water heater is on its own circuit. We use other circuits. For example, one for a microwave that appears to be working as expected.
+```
+Volts = 1454/119.64 = 12.15V
+```
+This voltage value also makes sense given the voltage source are the batteries.
 
-The challenge does not appear to be the water heater since it works fine when powered from our house.
+I attribute the ```1454 - 1274 = 189W``` difference to other loads on the circuits (like DC lights), power drawn by components such as the inverter, waste that occurs during the transformation of 12V DC into 120V AC.
+
 
 ## Battle Born Help
 Sent support request on 2/22/2021.  Reply:

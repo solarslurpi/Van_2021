@@ -4,12 +4,24 @@ We have installed 6 Battle Born 12V 100Ah batteries.  The 6 batteries are connec
 ## Output
 Our system outputs 12V DC Power at a capacity of 600Ah.
 
-![batteries](./images/batteries.png)
+![batteries](./images/bulkhead_batteries.jpeg)
 
 ## Charging
 The batteries are charged by either:
 * [Solar](Solar.md)
 * On Shore
+
+The [Battle Born Manual](https://www.solar-electric.com/lib/wind-sun/Battle_Born_Manual.pdf) gives great info on the characteristics of these batteries.
+
+DON'T UNDERSTAND THIS PARAGRAPH BECAUSE INVERTER ASKS FOR BETWEEN 100 and 200 A?
+
+The BMS will not allow a current that exceeds 100 (+/- 5%) Amps for 30s, or 200 (+/- 10%) Amps for 0.5s.
+Although these thresholds have been verified with a DC load bank, the 30 second high current threshold
+may be reduced from 200A to around 150A for certain highly variable loads through an inverter – like a
+microwave or space heater. After a high current disconnection, the battery will automatically reconnect
+after 5 seconds.
+
+
 ### State of Charge
 We installed Victron's [BMV-712 - Battery Monitor](https://battlebornbatteries.com/faq-all-about-bmvs/).  As noted in Victron's ["Energy Unlimited"](./documents/Book-Energy-Unlimited-EN.pdf) document: 
 
