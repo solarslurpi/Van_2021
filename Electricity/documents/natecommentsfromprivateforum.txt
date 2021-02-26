@@ -1,0 +1,29 @@
+1: The wires BETWEEN THE BATTERIES will share the load, but the wires from the batteries to the busbar will take the full force of the load. So... Technically, the wires between the batteries can be smaller, but I don't do this on my diagrams as it simply introduces confusion and the 'how much smaller' question varies depending on how many batteries are in the battery bank. The VERYROUGH and basic way to figure that and figure: Amps coming from battery bank / number of batteries = amps flowing from battery to battery.
+
+But again... In my diagrams, I just match the wire sizes between batteries with the wire size from battery bank to busbars to keep it simple and remove all doubt.
+
+2: The 400A fuse is based on the biggest load in the system, which is the Victron Multiplus 3k. The user manual recommends a 400A fuse for the Victron Multiplus 3k, so that's what we use.
+
+3: The 'actual' inefficiencies are closer to 10%, but I always figure 20% just to be safe. The inefficiencies are also based on the type of device that is being powered and it's "Power Factor". This gets REALLY confusing REALLY quickly, so I just go with 20% as a safe margin.
+
+But yes... The total wattage of power the Inverter is asked to supply / 12V = Amps coming from the battery bank.
+
+For the 12V side of things... I rarely see DC usage over, say, 20A if ALL of the lights are on and I'm charging a few phones and the fans are going; so that would be tacked onto the inverter amp demand; but this extra 20A or so is pretty much never enough to worry about for wire sizes.
+
+4: Pg. 8 of the Victron Multiplus 3k manual calls for 4/0 wire protected by a 400A fuse: https://www.victronenergy.com/upload/documents/Manual-MultiPlus-3k-120V-(firmware-xxxx4xx)-EN.pdf
+
+  · Reply
+PREVIOUS REPLIES 2
+Margaret Johnson
+Margaret Johnson 22m
+New Member
+Nate Yarbrough THANK YOU.  Your explanations are clear and frankly lower my stress quite a bit. It helps SO much to be able to conceptualize and visualize exactly what is going on.  What I found I truly did not understand (and of course there is A LOT I do not understand) is looking at the inverter as a DC load...and then Ohms lawing what that means when the vol …MORE
+  · Reply
+
+
+
+Share your thoughts...
+ 
+No file chosen
+No file chosen
+Tell us 
