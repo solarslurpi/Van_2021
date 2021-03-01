@@ -1,0 +1,27 @@
+From metacollin on reddit:
+
+You left out the most important spec: the temperature rating of the wire’s insulation. This is what is going to determine the wire’s current handling capabilities.
+
+The other concern is how hot you’re ok with the wires getting.
+
+At 250A, and 2/0 gauge wire is really not ideal for this. At 195A, the wire will rise 60C above ambient. It might be able to handle 250A if it has some pretty exotic insulation (silicone or PTFE) but it will be hot enough to melt plastics during heavy use (like 120C above ambient or more)
+
+But in low voltage high current cases like these, the mistake people often make is thinking bigger is better. When you get into these larger wire sizes and aren’t terribly concerned about the voltage drop because the distances are so short (like 4 feet), it’s almost always better to use several thinner wires then one large wire.
+
+Case in point: 2 gauge wire has exactly half the copper cross section as 2/0 gauge wire. Yet 90C insulated 2 gauge wire can handle 130A, and 2/0 gauge get can only handle 195A. If you use 2 lengths of 2 gauge wire, the resistance will be the same but you now have 260A of capacity vs 195A.
+
+This is because smaller wires have higher ratios of surface area to volume, so they can dissipate more heat and cool more easily. This effect gets more and more pronounced as the wire gets thicker.
+
+In your application, your main concern I think is just the wires heating up. The voltage drop is gonna to be negligible - less than 100mV at most for such a short length. What you need is surface area so the wires don’t get so hot.
+
+Of course, this means more work and the termination can get more complicated, and you have more cabling (if you try to twist them together, this kind of defeats the point) but I think it would be an acceptable trade off here.
+
+To get the needed capacity (250A) in one wire, you would need 4/0 gauge cables, and even then, you’d barely scrape by (4/0 has a 60C rise at 260A, so if it’s 30C out, the wires will hit 90C - pretty toasty). This would also be some expensive wire.
+
+Or you could get the exact same thermal performance and current capacity just be using 2x 2 gauge wires. The resistance would be slightly higher, but like I said, who cares. It’s 4 feet.
+
+You can keep going too. If you can stomach 3 wires per connection (for a total of 6 wires), you get 270A capacity (and less temperature rise for 250A) by using 4 gauge wire.
+
+There is a great chart on Wikipedia that should let you quickly estimate a number of solutions and you can factor in what various sizes of wires would cost. https://en.m.wikipedia.org/wiki/American_wire_gauge
+
+Basically, what you have now isn’t going to cut it but I would suggest going smaller but more, rather than getting monster outs 4/0 cable, which is what you actually need if you went with a single wire solution unfortunately.

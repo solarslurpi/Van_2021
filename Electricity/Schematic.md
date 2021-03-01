@@ -22,6 +22,7 @@ ___________________________________________________
 Even at 400A, the current that flows __between__ batteries is roughly 400A/6 batteries = 67A.  Well within the range of 2/0 cable's [ampacity](https://www.cerrowire.com/products/resources/tables-calculators/ampacity-charts/).
 
 # Wire and Fuses between Battery and Inverter
+What's the overload current draw while we are using DC and AC appliances in the Van?
 ## Loads running at the same time
 ### AC
 __The inverter will be the load that will require the maximum amount of current.__  To size the wire and fuse, we take in account:
@@ -52,6 +53,8 @@ The cable from the batteries to the busbar needs to accommodate:
 * The temperature is within a reasonable range.  Here, our temperatures will be between 0 and 110 degrees F.
 
 When I use [Nate's wire calculator](https://www.explorist.life/wire-sizing-calculator/) with A = 300A and distance = 4 feet, I get a wire size of 2/0.  So this should work.  This is what I started with.  I will change this.  It also recommends a fuse size of 450A, which seems large for a 2/0 300A..but makes sense when the calculation = 300 * 1.5 = 450A.
+
+---- TODO ----
 
 The batteries are (re)charged through:
 * [solar](Solar.md)
