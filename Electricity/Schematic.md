@@ -46,13 +46,15 @@ _I rarely see DC usage over, say, 20A if ALL of the lights are on and I'm chargi
 ___________________________________________________
 ## Maximum Amp Draw
 Given 240A for AC and 20A for DC, __the total maximum Amp draw at any one time is expected to be 300A or less__.
-## Cable Size
+## Wire From Batteries to Busbar
 The cable from the batteries to the busbar needs to accommodate:
 * 300A requirement.
 * The Wire to busbar is < 6 feet (it's actually more like 2 feet...The point here is wire distance causes friction, which lowers voltage, which means less current can be supplied.  At the length of this cable, distance is not an issue)
 * The temperature is within a reasonable range.  Here, our temperatures will be between 0 and 110 degrees F.
 
 When I use [Nate's wire calculator](https://www.explorist.life/wire-sizing-calculator/) with A = 300A and distance = 4 feet, I get a wire size of 2/0.  So this should work.  This is what I started with.  I will change this.  It also recommends a fuse size of 450A, which seems large for a 2/0 300A..but makes sense when the calculation = 300 * 1.5 = 450A.
+## Fuse Between Batteries and Busbar
+
 
 ---- TODO ----
 
