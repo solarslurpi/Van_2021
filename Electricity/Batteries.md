@@ -1,10 +1,17 @@
 # Batteries
-We have installed 6 Battle Born 12V 100Ah batteries.  The 6 batteries are connected in [parallel](https://en.wikipedia.org/wiki/Series_and_parallel_circuits).  
+Perhaps obvious, the batteries in the van provide DC current to two loads:
+- DC stuff like LED lights, a few fans...at most around 5 to 10A.
+- DC to AC stuff through our inverter which requires enough current to power the 120V microwave, water heater, popcorn popper, and induction stove.  The inverter we are using can provide up to 3000W of 120V AC, roughly two of the AC appliances running at the same time.  Given this is a 12V system, 3000/12 = 250A max.  
 
-## Output
-Our system outputs 12V DC Power at a capacity of 600Ah.
+Thus, the max amount of DC current delivered by the batteries at one time  is 250A.  
+
+# Capacity
+
+We have installed 6 Battle Born 12V 100Ah batteries.  The 6 batteries are connected in [parallel](https://en.wikipedia.org/wiki/Series_and_parallel_circuits).   Providing a capacity of 600Ah.
 
 ![batteries](./images/bulkhead_batteries.jpeg)
+
+The BattleBorn batteries are designed to provide the high current (250A) requirements we need. [This battleborn blog post](https://battlebornbatteries.com/comparison-one-battle-born-lifepo4-battery-two-6v-gc2-batteries-series/) provides more detail into the battery's characteristics when used to supply current to higher current loads.
 
 ## Charging
 The batteries are charged by either:

@@ -53,10 +53,7 @@ The cable from the batteries to the busbar needs to accommodate:
 * The temperature is within a reasonable range.  Here, our temperatures will be between 0 and 110 degrees F.
 
 When I use [Nate's wire calculator](https://www.explorist.life/wire-sizing-calculator/) with A = 300A and distance = 4 feet, I get a wire size of 2/0.  So this should work.  This is what I started with.  I will change this.  It also recommends a fuse size of 450A, which seems large for a 2/0 300A..but makes sense when the calculation = 300 * 1.5 = 450A.
-## Fuse Between Batteries and Busbar
 
-
----- TODO ----
 
 The batteries are (re)charged through:
 * [solar](Solar.md)
