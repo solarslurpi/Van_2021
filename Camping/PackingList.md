@@ -1,0 +1,6 @@
+- Sunscreen
+- Ibuprofen 
+- Flashlights/camping light
+- Chapstick
+- lotion (face and body)
+- heater
