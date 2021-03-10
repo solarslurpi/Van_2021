@@ -7,9 +7,11 @@ Thus, the max amount of DC current delivered by the batteries at one time  is 25
 
 # Capacity
 
-We have installed 6 Battle Born 12V 100Ah batteries.  The 6 batteries are connected in [parallel](https://en.wikipedia.org/wiki/Series_and_parallel_circuits).   Providing a capacity of 600Ah.
+We have installed 6 Battle Born 12V 100Ah batteries. 
 
+![battery bank](./images/bulkhead_batteries.jpeg)
 
+ The 6 batteries are connected in [parallel](https://en.wikipedia.org/wiki/Series_and_parallel_circuits).   Providing a capacity of 600Ah.
 
 The BattleBorn batteries are designed to provide the high current (250A) requirements we need. [This battleborn blog post](https://battlebornbatteries.com/comparison-one-battle-born-lifepo4-battery-two-6v-gc2-batteries-series/) provides more detail into the battery's characteristics when used to supply current to higher current loads.
 # Discharge
