@@ -20,6 +20,7 @@ We installed Victron's [BMV-712 - Battery Monitor](https://battlebornbatteries.c
 Below are the results of running a couple of tests of the inverter services high AC Watt loads. Running the appliances we will use in the van.
 ## Water Heater
 Our first test turns on the Bosch 3000T water heater.  It takes roughly 30 minutes to completely heat up the water to what Bosch considers "ideal" temperature.
+
 ![WH Discharge](./images/WH_DISCHARGE.png)
 
 The battery voltage read:
