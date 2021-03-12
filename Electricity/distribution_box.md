@@ -8,6 +8,14 @@ Here's an image of their wiring diagram.
 ## DC Circuits
 The DC part is pretty easy.  The challenging part might be deciding what Fuses to use.  Our box has the following DC circuits:
 
+| Fuse Size | Circuit |
+|---|---|
+|2|Garage fans|
+|7.5|Water pump|
+|10|Bathroom fan, cabin LEDs|
+|7.5|Bed lights|
+|10|Kitchen Fan, front LEDs|
+
 ## AC Circuits
 The wiring diagram has "30A Shore cord" coming into the 30 A main breaker.  Our "cord" is the AC OUT from the [inverter](inverter.md) (i.e.: AC OUT from the inverter is AC in for the distribution box).  Now that we have AC IN, we can start wiring the other circuits.  
 

@@ -1,14 +1,19 @@
 The busbar is based on [Nate's design](https://www.youtube.com/watch?v=qrZ-cr5qEwU).
 
-![busbar](./images/busbar.jpeg)
+![busbar](./images/garage_final_view_from_cabin.jpg)
 
-This drawing is from a [Google Draw drawing](https://docs.google.com/drawings/d/1cFxG-SYLUrIibH9CmVWT-2lXVOBwTpq42evKXvPoeV0/edit).
+This drawing is from a [Google Draw drawing](https://docs.google.com/drawings/d/1cFxG-SYLUrIibH9CmVWT-2lXVOBwTpq42evKXvPoeV0/edit).  It shows the layout of the busbar.
 
-![draw of positive busbar](./images/busbar_positive.png) 
+![garage from cabin](./images/busbar_positive.png) 
 
 I verified the drawing with Aaron at Dragonfly Energy on 3/4/2021.
 
-On the positive side, a 2/0 cable with an inline "main" 400A fuse runs from the battery bank to the positive busbar.  I had a question about why the 400A fuse was needed if there were fuses for the inverter and DC loads.  I was not fully grasping that fuses protect the wires. Which means, every wire should have a fuse.  A challenge I was having was using poor quality fuses and fuse boxes.  Since then I am replacing fuses and fuse boxes with those from either:
+On the positive side, a 2/0 cable with an inline "main" 400A fuse runs from the battery bank to the positive busbar.  
+
+
+![400A inline](./images/busbar_400A_inline.jpg) 
+
+I had a question about why the 400A fuse was needed if there were fuses for the inverter and DC loads.  I was not fully grasping that fuses protect the wires. Which means, every wire should have a fuse.  A challenge I was having was using poor quality fuses and fuse boxes.  Since then I am replacing fuses and fuse boxes with those from either:
 - Blue Sea Systems
 - Spartan Power
 
